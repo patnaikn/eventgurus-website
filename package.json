@@ -1,0 +1,19 @@
+{
+  "name": "eventgurus-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patnaikn/eventgurus-website.git"
+  },
+  "author": "Namrata Patnaik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patnaikn/eventgurus-website/issues"
+  },
+  "homepage": "https://github.com/patnaikn/eventgurus-website#readme"
+}

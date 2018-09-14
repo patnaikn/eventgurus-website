@@ -1,0 +1,82 @@
+/*=========================================================================
+                                HOME
+=========================================================================*/
+#home{
+    height: 100%;
+}
+
+#home-cover{
+    background: url('../assets/images/night-sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#home-content-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    /* text-align: center; */
+}
+
+#home-heading h3{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px;
+}
+/*=========================================================================
+                            PARALLAX(GENERIC)
+=========================================================================*/
+.bg-parallax{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*=========================================================================
+                            BUTTONS(GENERIC)
+=========================================================================*/
+
+.btn-general{
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white{
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover, .btn-white:focus{
+    background-color: #fff;
+    color: #41464b;
+}
+/*=========================================================================
+                            ANIMATION(GENERIC)
+=========================================================================*/
+#home-cover,#home-heading,#home-btn{
+    animation-duration: .5s;
+}
+#home-cover{
+    animation-delay: .1s;
+}
+#home-heading{
+    animation-delay: .5s;
+}
+#home-btn{
+    animation-delay: 1s;
+}
