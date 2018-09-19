@@ -7,10 +7,19 @@ html, body{
 
 body{
     font-family: "Roboto Condensed", sans-serif;
+    position: relative;
+    overflow: auto;
+    /* overflow-y: scroll; */
 }
 
 h3{
+    color: #41464b;
     text-transform: uppercase;
+}
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 

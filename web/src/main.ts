@@ -1,6 +1,8 @@
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 //import { GetGoogleFonts } from 'get-google-fonts';
+import { NgwWowModule } from 'ngx-wow';
+import { magnificPopup } from 'magnific-popup';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
