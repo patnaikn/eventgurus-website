@@ -1,0 +1,19 @@
+/*=========================================================================
+                                WORK
+=========================================================================*/
+#work img{
+    height: 400px;
+    width: 400px;
+    transition: transform .5s ease;
+}
+.row.no-gutters [class*=col-]{
+    padding-left: 46px;
+    padding-right: 0;
+}
+.img-wrapper{
+    overflow: hiddden;
+}
+.img-wrapper img:hover{
+    transform: scale(1.5,1.5);
+    cursor: zoom-in;
+}

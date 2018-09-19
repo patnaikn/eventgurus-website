@@ -1,0 +1,35 @@
+/*=========================================================================
+                                HOME
+=========================================================================*/
+#home{
+    height: 100%;
+}
+
+#home-cover{
+    background: url('../../assets/images/night-sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#home-content-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    /* text-align: center; */
+}
+
+#home-heading h3{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px;
+}
